@@ -15,6 +15,7 @@ export default async function Home() {
     <main className="flex flex-1 flex-col items-center justify-center gap-4 p-8 text-center">
       <p className="text-sm uppercase tracking-widest text-zinc-500">Sprint3_VercelTest</p>
       <h1 className="text-4xl font-semibold">{greeting}</h1>
+      <p className="text-lg">Built during the Building with AI agents course.</p>
       <p className="text-lg text-zinc-500">{today}</p>
     </main>
   );
